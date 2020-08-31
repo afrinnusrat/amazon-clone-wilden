@@ -1,18 +1,29 @@
 import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+
+// {/* we NEED React-ROUTER */}
+// {/* localhost.com/ */}
+// {/* localhost.com/checkout */}
+// {/* localhost.com/login */}
 
 function App() {
   return (
-    <div className="App">
-      <h1>Amazon Website Clone 🚀</h1>
-
-      {/* we NEED React-ROUTER */}
-
-      {/* localhost.com/ */}
-      {/* localhost.com/checkout */}
-      {/* localhost.com/login */}
-
-    </div>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/checkout">
+            <h1>Checkout 💰</h1>
+          </Route>
+          <Route path="/login">
+            <h1>Login page 🚪</h1>
+          </Route>
+          <Route path="/">
+            <h1>Home Page 🏠</h1>
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
