@@ -26,6 +26,36 @@ function Header() {
         <SearchIcon className="header__searchIcon" />
       </div>
 
+      {/* 3 Links */}
+      <div className="header__nav">
+        {/* 1st link */}
+        <Link to="/login" className="header__link">
+          <div className="header__option">
+            <span>Hai,</span>
+            <span>Sign In</span>
+          </div>
+        </Link>
+
+        {/* 2nd link */}
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span>Return,</span>
+            <span>& Orders</span>
+          </div>
+        </Link>
+
+        {/* 3rd link */}
+        <Link to="/" className="header__link">
+          <div className="header__option">
+            <span>Your</span>
+            <span>Prime</span>
+          </div>
+        </Link>
+
+        {/* 4th link */}
+        
+      </div>
+
     </div>
   )
 }
