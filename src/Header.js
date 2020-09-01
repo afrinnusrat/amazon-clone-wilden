@@ -9,6 +9,8 @@ function Header() {
 
   const [{ basket }] = useStateValue();   // cara akses ke react context
 
+  console.log(basket);
+  
   return (
     <div className="header">
       {/* Logo on the left -> img */}
