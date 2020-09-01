@@ -19,3 +19,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 # Install Material UI
 1. Open [https://material-ui.com/getting-started/installation/](https://material-ui.com/getting-started/installation/)
 2. Install material-ui `$ npm install @material-ui/core`
+3. Instal material-ui icons `$ npm install @material-ui/icons`
