@@ -21,9 +21,9 @@ function Header() {
       </Link>
 
       {/* Search Box */}
-      <div className="header_search">
+      <div className="header__search">
         <input type="text" className="header__searchInput"/>
-        <SearchIcon className="header_searchIcon" />
+        <SearchIcon className="header__searchIcon" />
       </div>
 
     </div>
