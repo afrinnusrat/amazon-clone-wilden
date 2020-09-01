@@ -40,14 +40,14 @@ function Home() {
         />
         <Product
           id="12341234"
-          title="Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6 inch Full HD 144Hz 3ms IPS Display, 16GB Dual-Channel DDR4, 512GB NVMe SSD, WiFi 6, RGB Keyboard, PH315-53-72XD"
+          title="Acer Predator Helios 300, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6 inch Full HD 144Hz, 16GB Dual-Channel DDR4, 512GB NVMe SSD"
           price={1.329}
           rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC_SL1500_.jpg"
         />
         <Product
           id="12341234"
-          title="BENGOO G9000 Stereo Gaming Headset for PS4, PC, Xbox One Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo PS3 Games"
+          title="BENGOO G9000 Stereo Gaming Headset for PS4, PC, Xbox One Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround"
           price={37.96}
           rating={4}
           image="https://images-na.ssl-images-amazon.com/images/I/61NZPCYSeVL._AC_SL1301_.jpg"
