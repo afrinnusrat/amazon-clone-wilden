@@ -31,24 +31,24 @@ function Header() {
         {/* 1st link */}
         <Link to="/login" className="header__link">
           <div className="header__option">
-            <span>Hai,</span>
-            <span>Sign In</span>
+            <span className="header__optionLineOne">Hai,</span>
+            <span className="header__optionLineTwo">Sign In</span>
           </div>
         </Link>
 
         {/* 2nd link */}
         <Link to="/" className="header__link">
           <div className="header__option">
-            <span>Return</span>
-            <span>& Orders</span>
+            <span className="header__optionLineOne">Return</span>
+            <span className="header__optionLineTwo">& Orders</span>
           </div>
         </Link>
 
         {/* 3rd link */}
         <Link to="/" className="header__link">
           <div className="header__option">
-            <span>Your</span>
-            <span>Prime</span>
+            <span className="header__optionLineOne">Your</span>
+            <span className="header__optionLineTwo">Prime</span>
           </div>
         </Link>
 
