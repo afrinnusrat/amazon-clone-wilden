@@ -23,44 +23,44 @@ function Home() {
         />
         <Product
           id="12341234"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={11.96}
+          title="Apple iPhone 11 Pro Max, 64GB, Midnight Green - Fully Unlocked (Renewed)"
+          price={1.044}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/61GggH1hAaL._AC_SL1000_.jpg"
         />
       </div>
       
       <div className="home__row">
         <Product
           id="12341234"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={11.96}
+          title="DJI Mavic Pro Platinum with Extra Battery, Flagship 4K Quadcopter Drone with 30 Mins Flight Time, 7 km Range, Obstacle Avoidance and More"
+          price={1.049}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/71gKtFQ9hIL._AC_SL1500_.jpg"
         />
         <Product
           id="12341234"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={11.96}
+          title="Acer Predator Helios 300 Gaming Laptop, Intel i7-10750H, NVIDIA GeForce RTX 2060 6GB, 15.6 inch Full HD 144Hz 3ms IPS Display, 16GB Dual-Channel DDR4, 512GB NVMe SSD, WiFi 6, RGB Keyboard, PH315-53-72XD"
+          price={1.329}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/71k45hZkLmL._AC_SL1500_.jpg"
         />
         <Product
           id="12341234"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
-          price={11.96}
+          title="BENGOO G9000 Stereo Gaming Headset for PS4, PC, Xbox One Controller, Noise Cancelling Over Ear Headphones with Mic, LED Light, Bass Surround, Soft Memory Earmuffs for Laptop Mac Nintendo PS3 Games"
+          price={37.96}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/61NZPCYSeVL._AC_SL1301_.jpg"
         />
       </div>
       
       <div className="home__row">
         <Product
           id="12341234"
-          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          title="Dash Mini Maker: The Mini Waffle Maker Machine for Individual Waffles, Paninis, Hash browns, & other on the go Breakfast, Lunch, or Snacks - Red"
           price={11.96}
           rating={4}
-          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+          image="https://images-na.ssl-images-amazon.com/images/I/81zKwg8kQ0L._AC_SL1500_.jpg"
         />
       </div>
 
