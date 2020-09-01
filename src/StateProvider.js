@@ -1,7 +1,7 @@
 // setup data layer
 // We need this to track the basket
 
-import React, { createContext, useState, useEffect, useReducer } from 'react';
+import React, { createContext, useState, useEffect, useReducer, useContext } from 'react';
 
 // THIS IS THE DATA LAYER
 export const StateContext = createContext();
