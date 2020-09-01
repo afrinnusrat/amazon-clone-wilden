@@ -29,6 +29,40 @@ function Home() {
           image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
         />
       </div>
+      
+      <div className="home__row">
+        <Product
+          id="12341234"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          price={11.96}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+        />
+        <Product
+          id="12341234"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          price={11.96}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+        />
+        <Product
+          id="12341234"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          price={11.96}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+        />
+      </div>
+      
+      <div className="home__row">
+        <Product
+          id="12341234"
+          title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses"
+          price={11.96}
+          rating={4}
+          image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
+        />
+      </div>
 
     </div>
   )
