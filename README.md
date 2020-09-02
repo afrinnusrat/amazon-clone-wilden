@@ -23,3 +23,11 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Install React Currency Format
 `$ npm i react-currency-format`
+
+# Create firebase config file
+1. Install `$ npm i firebase`
+2. Create firebase.js file in src folder
+3. Goto console firebase and setting project
+4. Go down look at Firebase SDK snippet
+5. Click Config radion button
+6. Copy const firebaseConfig and paste to firebase.js and edit
