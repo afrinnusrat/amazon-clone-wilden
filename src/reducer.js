@@ -8,7 +8,7 @@ export const initialState = {
       image: "https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg"
     },
     {
-      id: "12341234",
+      id: "009876987",
       title: "The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses",
       price: 11.96,
       rating: 4,
@@ -31,7 +31,7 @@ const reducer = (state, action) => {
       }
     case 'REMOVE_TO_BASKET':
       // Logic for removing item to basket
-      return { state }
+      return { ...state }
     default:
       return state;
   }

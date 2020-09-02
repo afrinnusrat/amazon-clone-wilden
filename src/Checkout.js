@@ -28,14 +28,14 @@ function Checkout() {
 
             {/* List out all of the Chechout Products */}
             {
-              basket.map(item => (
-                <CheckoutProduct
-                  item={item.id}
-                  title={item.title}
-                  image={item.image}
-                  price={item.price}
-                  rating={item.rating}
-                />
+              basket?.map((item) => (
+                  <CheckoutProduct
+                    id={item.id}
+                    title={item.title}
+                    image={item.image}
+                    price={item.price}
+                    rating={item.rating}
+                  />
               ))
             }
           </div>
