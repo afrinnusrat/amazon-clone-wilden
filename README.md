@@ -31,3 +31,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 4. Go down look at Firebase SDK snippet
 5. Click Config radion button
 6. Copy const firebaseConfig and paste to firebase.js and edit
+
+# Setup Firebase User Authentication
+1. Go to console firebase
+2. Click Authentication tabs in the left side
+3. Choose Sign-in method
+4. Choose Email/Password
+- Enabled the First one
+- Disbaled Email Link (passwordless sign-in)
+- Click Save
