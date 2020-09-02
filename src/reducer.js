@@ -31,11 +31,14 @@ const reducer = (state, action) => {
       }
     case 'REMOVE_FROM_BASKET':
       // Logic for removing item to basket
+
+      // we cloned the basket
       let newBasket = [...state.basket];
 
+      // we check to see if product exists
       const index = state.basket.findIndex(
-        (basketItem) => basketItem.id === action.id)
-      ;
+        (basketItem) => basketItem.id === action.id
+      );
 
       if (index >= 0) {
         // item exists in basket, remove it...
