@@ -1,3 +1,6 @@
+# Amazon Clone
+## [https://amazoen-clone-wilden.web.app](https://amazoen-clone-wilden.web.app)
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
@@ -23,3 +26,31 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 # Install React Currency Format
 `$ npm i react-currency-format`
+
+# Create firebase config file
+1. Install `$ npm i firebase`
+2. Create firebase.js file in src folder
+3. Goto console firebase and setting project
+4. Go down look at Firebase SDK snippet
+5. Click Config radion button
+6. Copy const firebaseConfig and paste to firebase.js and edit
+
+# Setup Firebase User Authentication
+1. Go to console firebase
+2. Click Authentication tabs in the left side
+3. Choose Sign-in method
+4. Choose Email/Password
+- Enabled the First one
+- Disbaled Email Link (passwordless sign-in)
+- Click Save
+
+# Deploy to Firebase
+1. Install firebase tools `$ npm install -g firebase-tools`
+2. Firebase Init `$ firebase init`
+- Are you ready to procees? `Jawab Y`
+- Pilih Hosting: `Configure and deploy Firebase Hosting sites`
+- What do you want to use as your public directory? `(awalnya public ganti jadi build)`
+- Configure as a single-page app (rewrite all urls to /index.html)? (y/N) , `jawab YES aja`
+- `$ npm run build`
+- `$ firebase deploy`
+- Cara cepat `$ npm run build && firebase deploy`
