@@ -20,7 +20,12 @@ function Login() {
           <input type="text" />
           <h5>Password</h5>
           <input type="text" />
+          <button>Sign In</button>
         </form>
+        <p>
+          By Sign in, you agree to Amazon's Conditions of Use and Privacy Notice.
+        </p>
+        <button>Create yout Amazon Account</button>
       </div>
     </div>
   )
