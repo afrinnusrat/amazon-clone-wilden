@@ -13,7 +13,7 @@ function Login() {
         />
       </Link>
 
-      <div>
+      <div className="login__container">
         <h1>Sign in</h1>
         <form>
           <h5>Email</h5>
