@@ -3,6 +3,19 @@ import './Login.css'
 import { Link } from 'react-router-dom';
 
 function Login() {
+
+  const login = event => {
+    event.preventDefault();   // this stops the refresh
+    // do the login logic...
+    
+  }
+  
+  const register = event => {
+    event.preventDefault();   // this stops the refresh
+    // do the register logic...
+    
+  }
+
   return (
     <div className="login">
       <Link to="/">
@@ -17,15 +30,15 @@ function Login() {
         <h1>Sign in</h1>
         <form>
           <h5>Email</h5>
-          <input type="text" />
+          <input type="email" />
           <h5>Password</h5>
-          <input type="text" />
-          <button className="login_signInButton">Sign In</button>
+          <input type="password" />
+          <button onClick={login} type="submit" className="login_signInButton">Sign In</button>
         </form>
         <p>
           By Sign in, you agree to Amazon's Conditions of Use and Privacy Notice.
         </p>
-        <button className="login_registerButton">Create yout Amazon Account</button>
+        <button onClick={register} className="login_registerButton">Create yout Amazon Account</button>
       </div>
     </div>
   )
